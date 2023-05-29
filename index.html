@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+  <link rel="stylesheet" href="/style.css">
+  
+</head>
+<body>
+  <main>
+
+    <img src="/images/logo.svg" alt="logo" class="logo">
+
+    <h1>We are launching <span>soon!</span></h1>
+
+    <p>Subscribe and get notified<p>
+
+    <form action="" id='form'>
+      
+      <div>
+        <input type="text" name="email" id="email" placeholder="your email address...">
+        <span id="text"></span>
+      </div>
+
+      <button onclick='valid()' type="button">Notify Me</button>
+
+    </form>
+
+    <img  class="main-img" src="/images/illustration-dashboard.png" alt="illustration dashboard">
+  
+  </main>
+  
+  <footer>
+    <div>
+      <ul class="footer-icon">
+
+        <li>
+          <a href="#">
+            <svg class='svg' viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+
+              <rect x="0" fill="none" width="20" height="20"/>
+              
+              <g>
+              
+              <path class="fill-path"   d="M8.46 18h2.93v-7.3h2.45l.37-2.84h-2.82V6.04c0-.82.23-1.38 1.41-1.38h1.51V2.11c-.26-.03-1.15-.11-2.19-.11-2.18 0-3.66 1.33-3.66 3.76v2.1H6v2.84h2.46V18z"/>
+              
+              </g>
+              
+              </svg>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <svg class='svg' viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg"><path d="M7.91 20.889c8.302 0 12.845-6.885 12.845-12.845 0-.193 0-.387-.009-.58A9.197 9.197 0 0 0 23 5.121a9.15 9.15 0 0 1-2.597.713 4.542 4.542 0 0 0 1.99-2.5 8.98 8.98 0 0 1-2.87 1.091A4.506 4.506 0 0 0 16.23 3a4.52 4.52 0 0 0-4.516 4.516c0 .352.044.696.114 1.03-3.75-.185-7.078-1.99-9.305-4.718a4.526 4.526 0 0 0 1.4 6.03 4.566 4.566 0 0 1-2.043-.563v.061A4.524 4.524 0 0 0 5.5 13.784a4.399 4.399 0 0 1-1.189.159c-.29 0-.572-.027-.845-.08a4.514 4.514 0 0 0 4.217 3.135 9.054 9.054 0 0 1-5.608 1.936A8.69 8.69 0 0 1 1 18.873a12.841 12.841 0 0 0 6.91 2.016Z"  class="fill-path"/></svg>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+
+              <g  fill-rule="evenodd">
+              
+              <path fill="none" d="m0 0h32v32h-32z"/>
+              
+              <path class="fill-path" d="m23.6190476.13999994.2518496.00400082c4.4330352.13698982 7.9850489 3.77162206 7.9891029 8.23707871v15.23796813l-.0040009.2518496c-.1369898 4.4330352-3.771622 7.9850489-8.2370787 7.9891029h-15.23796812l-.25184954-.0040009c-4.43303524-.1369898-7.98504891-3.771622-7.9891029-8.2370787v-15.23796812l.00400082-.25184954c.13698982-4.43303524 3.77162206-7.98504891 8.23707871-7.9891029zm0 2.00571434h-15.23809522l-.2285857.00411224c-3.33773425.12028135-6.0066524 2.86402399-6.0066524 6.23112586v15.23809522l.00411224.2285857c.12028135 3.3377343 2.86402399 6.0066524 6.23112586 6.0066524h15.23809522l.2285857-.0041122c3.3377343-.1202814 6.0066524-2.864024 6.0066524-6.2311259v-15.23809522l-.0041122-.2285857c-.1202814-3.33773425-2.864024-6.0066524-6.2311259-6.0066524zm-7.6191758 4.85142851.2653486.00407526c4.8475552.14463612 8.7331682 4.11734025 8.7376368 8.99891015 0 4.9720125-4.0307165 9.002729-9.0028572 9.002729s-9.00285716-4.0307165-9.00285716-9.0028572c0-4.8833525 3.88804756-8.8586028 8.73741066-8.99901883zm.0001282 2.00571437c-3.8644153 0-6.99714284 3.13272754-6.99714284 6.99714284s3.13272754 6.9971428 6.99714284 6.9971428 6.9971428-3.1327275 6.9971428-6.9971428-3.1327275-6.99714284-6.9971428-6.99714284zm8.7619048-3.91047622c.7642569 0 1.3838095.61955263 1.3838095 1.38380953s-.6195526 1.38380953-1.3838095 1.38380953c-.764257 0-1.3838096-.61955263-1.3838096-1.38380953s.6195526-1.38380953 1.3838096-1.38380953z" fill="#000000" fill-rule="nonzero"/>
+              
+              </g>
+              
+              </svg>
+          </a>
+        </li>
+
+      </ul>
+    </div>
+    <p> &copy; Copyright Ping. All rights reserved.</p>
+  </footer>
+  <script>
+    function valid(){
+      const form = document.getElementById('form');
+      const email = document.getElementById('email').value
+      const text = document.getElementById('text');
+      const pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+
+      if(!email.match(pattern)){
+        form.classList.add('invalid')
+        text.innerHTML = 'Your Email Address in Valid'
+        text.style.color = 'hsl(354, 100%, 66%)'
+      } else{
+        form.classList.remove('invalid')
+        text.innerHTML = ''
+      }
+    }
+  </script>
+</body>
+</html>

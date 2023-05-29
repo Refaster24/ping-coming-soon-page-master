@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&display=swap');
+
+body{
+    margin-block: 20px;
+    text-align: center;
+    font-family: 'Libre Franklin',sans-serif;
+    font-size: 20px;
+    
+}
+
+footer p,
+h1{
+    color: hsl(0, 0%, 59%);
+}
+
+h1 span{
+    color: initial;
+}
+
+main p{
+    font-size: 20px;
+}
+
+.main-img{
+    width: clamp(300px , 300px + 1vw , 400px);
+}
+
+form{
+    margin-block: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+input{
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    padding-inline: 10px;
+    border: 1.5px solid hsl(0, 0%, 59%);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.invalid input:focus{
+    outline :hsl(354, 100%, 66%) auto .5px ;
+}
+
+#text {
+    font-size: 11px;
+    margin-top: 7px;
+    text-align: start;
+    padding-left: 18px;
+}
+
+button{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 130px;
+    height: 34px;
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color:  hsl(223, 87%, 63%);
+    color: white;
+}
+
+button:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+
+
+footer .footer-div{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+footer  ul li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+footer a{
+    margin-left: 12px;
+}
+
+
+
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    --fill:hsl(223, 87%, 63%);
+    fill: var(--fill);
+}
+
+
+svg{
+    width: 31px;
+    padding: 4.5px;
+    outline: 0.1px solid hsl(0, 0%, 59%);
+    border-radius: 24px;
+    height: 26px;
+    outline-offset: 2px;
+}
+
+
+
+svg:hover{
+    background-color: hsl(224, 93%, 58%);
+    --fill:white ;
+    fill:var(--fill) ;
+}
+
+.fill-path{
+    fill: inherit;
+}
+
+
+@media screen and (max-width:400px) {
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #text{
+        text-align: inherit;
+        padding-left:0 ;
+    }
+}
